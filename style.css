@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #e6f2e6;
+  color: #2a3a2a;
+  margin: 1cm;
+  padding: 0;
+}
+
+nav {
+  background-color: #cce6cc;
+  padding: 15px 0;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #99cc99;
+}
+
+nav a {
+  color: #2a3a2a;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #1f2a1f;
+}
+
+h1, h2 {
+  color: #1f2a1f;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.section-left .section-text {
+  text-align: left;
+  flex: 1 1 400px;
+}
+
+.section-center .section-text {
+  text-align: center;
+  flex: 1 1 400px;
+}
+
+.section img {
+  width: 8cm;
+  border: 3px solid #2a3a2a;
+  border-radius: 10px;
+  flex-shrink: 0;
+  display: block;
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  gap: 15px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
